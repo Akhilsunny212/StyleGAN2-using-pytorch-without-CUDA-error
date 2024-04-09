@@ -4,11 +4,16 @@ Implementation of StyleGAN2-ada using Pytorch without any version related errors
 <h1>Navigate to Google Colab and start a new notebook.</h1>
 <h2>Install Miniconda:</h2>
 <p>To manage the specific version dependencies, it's recommended to install Miniconda in your Colab environment. Use the following commands to install Miniconda:</p>
-<code>!wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</code>
-<code>!bash Miniconda3-latest-Linux-x86_64.sh -bfp /usr/local</code>
-<code>import os</code>
-<code>os.environ['PATH'] = "/usr/local/bin:" + os.environ['PATH']</code>
-<code>!conda update -n base -c defaults conda -y</code>
+<code>!wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh</code>  
+
+<code>!bash Miniconda3-latest-Linux-x86_64.sh -bfp /usr/local</code>  
+
+<code>import os</code>  
+
+<code>os.environ['PATH'] = "/usr/local/bin:" + os.environ['PATH']</code>  
+
+<code>!conda update -n base -c defaults conda -y</code>  
+
 
 <h2>Create a Virtual Environment with Python 3.7:</h2>
 <p>With Miniconda installed, create a new virtual environment using Python 3.7:</p>

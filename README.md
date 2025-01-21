@@ -8,7 +8,7 @@ Implementation of StyleGAN2-ada using Pytorch without any version related errors
 
 <code>!bash Miniconda3-latest-Linux-x86_64.sh -bfp /usr/local</code>  
 
-<code>import os</code>  
+<code>import os</code>   
 
 <code>os.environ['PATH'] = "/usr/local/bin:" + os.environ['PATH']</code>  
 
